@@ -1,0 +1,54 @@
+.popup {
+  position: fixed;
+  background: rgba(#000, 0.8);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  &-container {
+    position: relative;
+    width: rem(500);
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: 5%;
+    background: $whiteColor;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid $borderColor;
+  }
+
+  &-header {
+    margin: 0 0 rem(20);
+    text-align: center;
+
+    h3 {
+      font-weight: 400;
+      margin: 0;
+    }
+  }
+}
+
+.box {
+
+}
+
+.close-icon {
+  cursor: pointer;
+  position: absolute;
+  right: rem(-10);
+  top: rem(-10);
+  background: $whiteColor;
+  width: rem(30);
+  height: rem(30);
+  border-radius: 50%;
+  line-height: rem(20);
+  text-align: center;
+  border: 1px solid $borderColor;
+  font-size: rem(16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

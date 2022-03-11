@@ -1,0 +1,67 @@
+$primary: var(--primary);
+$secondary: var(--secondary);
+$borderColor: var(--borderColor);
+$darkGreyColor: var(--darkGreyColor);
+$lightGreyColor: var(--lightGreyColor);
+$whiteColor: var(--whiteColor);
+$blueColor: var(--blueColor);
+$lightblueColor: var(--lightblueColor);
+$orangeColor: var(--orangeColor);
+$btnGreyColor: var(--btnGreyColor);
+$blackColor: var(--blackColor);
+
+html:root {
+  --primary: #0d1117;
+  --secondary: #161b22;
+  --borderColor: #ddd;
+  --btnGreyColor: #21262d;
+  --darkGreyColor: #f0f1f3;
+  --lightGreyColor: #30363d;
+  --whiteColor: #FFFFFF;
+  --blueColor: #183153;
+  --lightblueColor: #4267b2;
+  --orangeColor: #db6d28;
+  --blackColor: #000;
+}
+
+$font-family-primary: $font-family-fredoka;
+$font-family-secondary: $font-family-opensans;
+
+$h1-font-size: rem(40);
+$h3-font-size: rem(28);
+
+body {
+  font-family: $font-family-secondary;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-primary;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (max-width: 576px) {
+
+}
